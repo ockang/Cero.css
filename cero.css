@@ -352,3 +352,36 @@ template {
 [hidden] {
   display: none;
 }
+
+/* Rows Start */
+
+
+.r {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.r-large {
+  justify-content: space-between;
+}
+
+.r-center {
+  align-items: center;
+}
+
+.r-start {
+  align-items: flex-start;
+}
+.r-end {
+  align-items: flex-end;
+}
+
+
+/* Rows End */
