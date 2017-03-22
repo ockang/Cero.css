@@ -7,6 +7,10 @@
 /* End Fonts */
 
 /* Utilitis Start */
+.t-White {
+  color: #fff;
+}
+
 .uNone {
   display: none;
 }
