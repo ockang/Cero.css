@@ -1,7 +1,11 @@
-/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+/*! normalize.css v5.0.0 | MIT License | https://github.com/ockang/Cerocss/ */
 
 /* Document
    ========================================================================== */
+
+* {
+  box-sizing: border-box;
+}
 
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -48,8 +52,22 @@ section {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 
 /* Grouping content
    ========================================================================== */
