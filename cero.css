@@ -1,14 +1,20 @@
 /*! cero.css v0.0.1 | MIT License | https://github.com/ockang/Cerocss/ */
 
+/* Base Fonts */
+ 
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,700i');
+
+/* End Fonts */
+
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: sans-serif; /* 1 */
-  line-height: 1.15; /* 2 */
-  -ms-text-size-adjust: 100%; /* 3 */
-  -webkit-text-size-adjust: 100%; /* 3 */
+  font-family: 'Open Sans', sans-serif; 
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 
