@@ -1,8 +1,17 @@
+/* Edinson Carranza Saldaña - Developer Full Stack */
+
 /*! cero.css v0.0.1 | MIT License | https://github.com/ockang/Cerocss/ */
 
 /* Base Fonts */
  
+ //WEB FONT ALL
  @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,700i');
+
+
+ //H1,H2,H3,H4,H5,H6
+ @import url('https://fonts.googleapis.com/css?family=Raleway');
+
+ @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 /* End Fonts */
 
@@ -69,7 +78,17 @@
 }
 
 
+/* Fonts Important Start*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
 
+strong, b, em {
+  font-family: 'Nunito', sans-serif;
+}
+
+
+/* Fonts Important End */
 
 
 /* Utilitis End */
@@ -87,6 +106,7 @@ html {
 
 
 body {
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
 }
 
